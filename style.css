@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+/* .containers{
+  width: 60%!important;
+  margin: auto;
+} */
+.logo-img{
+  width: 200px;
+}
+.hero-img{
+  background-image:linear-gradient(rgba(2,10,32,0.7),rgba(2,10,32,0.7)), url(./imgaksan/hero.jpg);
+  height: 320px;
+  width: 100%;
+  backdrop-filter: #020a20;
+}
+.takim{
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  letter-spacing: 10px;
+}
+.border-icin{
+  border-color: lightgray;
+}
+.letter{
+  letter-spacing: 10px;
+}
+main .nav a{
+  color: gray;
+}
+.nav-baslik{
+  color: #990033!important;
+  font-weight: bold;
+}
+.footer-renk{
+  background-color: #010A20;
+  font-size: 11px;
+}
+.footer-nav{
+  color: white;
+  text-decoration: none;
+  line-height: 20px;
+}
+.footer-baslik{
+  line-height: 35px;
+}
+.form-control::placeholder{
+  color: gray!important;
+}
+.fa-brands{
+  font-size: 30px;
+  color: white;
+  padding: 15px;
+}
